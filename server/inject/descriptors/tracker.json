@@ -5,6 +5,14 @@
       "type": "identifier",
       "selector": "body",
       "control": "exists"
+    },
+    "trackerList": {
+      "type": "array",
+      "selectorAll": ".table tr",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
   "connect": []
