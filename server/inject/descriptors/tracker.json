@@ -11,7 +11,13 @@
       "selectorAll": ".table tr",
       "items": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "orderName": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText"
+          }
+        }
       }
     }
   },
