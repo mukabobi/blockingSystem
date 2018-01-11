@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "blockingsystem",
-  "startScreen": "app.blank",
+  "startScreen": "app.tracker",
   "screens": [
     {
       "id": "blank",

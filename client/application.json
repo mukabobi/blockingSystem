@@ -4,5 +4,11 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "e94f6baf",
   "uiCommonVersion": "5.2.10",
-  "creatorId": "viecsehn"
+  "creatorId": "viecsehn",
+  "id": "blockingsystem",
+  "previewImageURL": "/previews/e94f6baf-blockingsystem/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/mukabobi/blockingSystem",
+  "creatorName": "Christian Sehn",
+  "sdks": []
 }
