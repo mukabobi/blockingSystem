@@ -33,5 +33,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.tracker', {
+        views: {
+            app: {
+                controller: 'app_tracker',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.tracker');
+                }
+            }
+        }
     });
 });
