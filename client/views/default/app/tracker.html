@@ -9,18 +9,22 @@
         </ion-nav-buttons>
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
-        <div class="item item-icon-right" collection-repeat="item in data.trackerlist"
-            data-comp-id="item.1">
-            <div class="card" data-comp-display="card.1" data-comp-id="div.1">
-                <div class="row" data-comp-id="row.1">
-                    <div class="col" data-comp-id="column.1"></div>
-                    <div class="col" data-comp-id="column.2"></div>
-                </div>
+        <ion-list data-comp-id="ionic-list.1" ng-repeat="item in data.trackerlist">
+            <div class="item item-icon-right" data-comp-id="item.1">
                 <div class="row" data-comp-id="row.2">
-                    <div class="col" data-comp-id="column.3"></div>
+                    <div class="col" data-comp-id="column.3">
+                        <div data-comp-id="text.1" ng-bind="item.ordername">Some text</div>
+                    </div>
+                </div>
+                <div class="row" data-comp-id="row.1">
+                    <div class="col" data-comp-id="column.1">
+                        <div data-comp-id="text.2" ng-bind="item.status">Some text</div>
+                    </div>
+                    <div class="col" data-comp-id="column.2">
+                        <div data-comp-id="text.3" ng-bind="item.project">Some text</div>
+                    </div>
                 </div>
             </div>
-            <i class="icon ion-ios-arrow-right" data-comp-id="icon.1" style="font-size:32px"></i>
-        </div>
+        </ion-list>
     </ion-content>
 </ion-view>
