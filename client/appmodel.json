@@ -3,14 +3,22 @@
     "type": "object",
     "comment": "ListView",
     "properties": {
-      "ordernumber": {
-        "type": "string"
-      },
-      "status": {
-        "type": "string"
-      },
-      "project": {
-        "type": "string"
+      "trackerlist": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "ordername": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "project": {
+              "type": "string"
+            }
+          }
+        }
       }
     }
   }
